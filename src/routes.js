@@ -6,7 +6,7 @@ import About from './components/About/About';
 
 export default (
     <Route path="/" component={App}>
-        <IndexRoute component={Home}></IndexRoute>
-        <Route path="about" component={About}></Route>
+        <IndexRoute component={Home}/>
+        <Route path="about" component={About}/>
     </Route>
 );
