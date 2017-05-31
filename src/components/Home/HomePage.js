@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router'
 
-class Home extends React.Component {
+class HomePage extends React.Component {
     render() {
         return (
             <div className="jumbotron">
@@ -13,4 +13,4 @@ class Home extends React.Component {
     }
 }
 
-export default Home;
+export default HomePage;
