@@ -13,7 +13,7 @@ class CoursesPage extends React.Component {
     }
 
     redirectToAddCoursePage(){
-        browserHistory.push('/course/new');
+        browserHistory.push('/course');
     }
 
     render() {
