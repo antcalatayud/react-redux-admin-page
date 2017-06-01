@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
-import TextInput from '../common/TextInput';
-import SelectInput from '../common/SelectInput';
+import TextInput from '../Common/TextInput';
+import SelectInput from '../Common/SelectInput';
 
 
 const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => {
@@ -15,7 +15,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
 				error={errors.title}/>
 			<SelectInput
 				name="authorId"
-				label="Length"
+				label="Author"
 				value={course.authorId}
 				defaultOption="Select Author"
 				options={allAuthors}
@@ -46,8 +46,8 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
 CourseForm.propTypes = {
 	course: PropTypes.object.isRequired, 
 	allAuthors: PropTypes.array, 
-	onSave: PropTypes.func.isRequired, 
-	onChange: PropTypes.func.isRequired, 
+	onSave: PropTypes.func, 
+	onChange: PropTypes.func, 
 	loading: PropTypes.bool, 
 	errors: PropTypes.object
 };
