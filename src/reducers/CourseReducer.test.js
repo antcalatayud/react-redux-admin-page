@@ -1,6 +1,6 @@
 import expect from 'expect';
 import CourseReducer from './CourseReducer';
-import * as actions from '../actions/Courseactions';
+import * as actions from '../actions/CourseActions';
 
 describe('Course Reducer', () => {
     it('should add course when passed CREATE_COURSE_SUCCESS', () => {

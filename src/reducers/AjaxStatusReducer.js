@@ -5,7 +5,7 @@ function actionTypeEndsInSuccess(type) {
     return type.substring(type.length - 8) == '_SUCCESS';    
 }
 
-export default (state = InitialState.numAjaxCallsInProgress, action) => {
+export default (state = InitialState.ajaxCallsInProgress, action) => {
     if (action.type == types.BEGIN_AJAX_CALL) {
         return state + 1;
     } 

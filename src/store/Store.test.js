@@ -2,7 +2,7 @@ import expect from 'expect';
 import { createStore } from 'redux';
 import rootReducer from '../reducers';
 import initalState from '../reducers/InitialState';
-import * as courseActions from '../actions/courseactions';
+import * as courseActions from '../actions/CourseActions';
 
 
 describe('Store', () => {
