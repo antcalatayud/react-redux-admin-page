@@ -1,0 +1,10 @@
+* author administration
+* delete course
+* hide course list if empty
+* unsaved changes message in course forms
+* client-side validation
+* 404 page
+* show courses in header
+* pagination /scrolling
+* sort course table
+* revert abandoned changes
